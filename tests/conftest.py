@@ -50,19 +50,3 @@ class ToTestException:
 @pytest.fixture()
 def fixture_test_class():
     return ToTestException
-
-
-#
-# @pytest.fixture()
-# def fixture_triangle_scalene():
-#     return 2, 3, 4
-#
-#
-# @pytest.fixture()
-# def fixture_triangle_isosceles():
-#     return 1, 3, 3
-#
-#
-# @pytest.fixture()
-# def fixture_triangle_equilateral():
-#     return 3, 3, 3
